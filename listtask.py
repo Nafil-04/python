@@ -85,6 +85,11 @@ my_list.extend(new_list)
 print(my_list)
 
 # 19
+list1=['hello']
+list2=['hello']
+list3=['hello']
+combined_list=list1+list2+list3
+print(combined_list)
 
 # 20
 my_list=[10,20,30,40]
