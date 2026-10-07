@@ -17,4 +17,21 @@ my_tuple=("a","b","c","d")
 print(my_tuple[1:3])
 
 # 5
+my_tuple=("x","y","z")
+print("x" in my_tuple)
 
+# 6
+
+
+# 7
+
+# 8
+my_tuple=(1,2,2,3,2)
+print(my_tuple.count(2))
+
+# 9
+my_tuple=("dog","cat","mouse")
+print(my_tuple.index("cat"))
+
+# 10
+m
