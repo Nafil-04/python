@@ -34,8 +34,8 @@
 
 
 # 8
-# a='concatenate'
-# print(a.find('cat'))
+a='concatenate'
+print("cat" in a)
 
 # 9
 # a='banana'
@@ -54,7 +54,9 @@
 # print(a.split(','))
 
 # 13
-# a=['a','b','c']
+a=['a','b','c']
+result="".join(a)
+print(result)
 
 
 # 14
@@ -66,16 +68,21 @@
 # print(a.replace('a' , '@'))
 
 # 16
-# a='hello123'
+a='hello123'
+print(a.isalnum())
 
 # 17
-# a='python'
+a='python'
+print(a.capitalize())
 
 # 18
-# a='hello world'
+a='hello world'
+print(a.title())
 
 # 19
-# a='python'
+a="python"
+result= a.replace("a","").replace("e","").replace("i","").replace("o","").replace("u","")
+print(result)
 
 # 20
 # a='madam'
