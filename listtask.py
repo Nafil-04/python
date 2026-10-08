@@ -59,7 +59,8 @@ my_list[2]= 99
 print(my_list)
 
 # 13
-
+result=list(range(5))
+print(result)
 
 # 14
 my_list=1,2,3,4,5,6
@@ -77,6 +78,8 @@ print(copied_list)
 
 # 17
 my_list=[1,2,3]
+result=[my_list]
+print(result)
 
 # 18
 my_list=[1,2]
@@ -85,11 +88,8 @@ my_list.extend(new_list)
 print(my_list)
 
 # 19
-list1=['hello']
-list2=['hello']
-list3=['hello']
-combined_list=list1+list2+list3
-print(combined_list)
+result=["hello"] * 3
+print(result)
 
 # 20
 my_list=[10,20,30,40]
