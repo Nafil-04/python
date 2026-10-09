@@ -39,3 +39,9 @@
 # a=["apple","banana","cherry"]
 # for a in a:
 #     print(a)
+
+# while loop
+a=1
+while a<=10:
+    print(a)
+    a+=1
