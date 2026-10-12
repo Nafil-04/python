@@ -182,5 +182,5 @@
 # print(l4)
 
 # # 5
-# l5=["even" if x % 2 == 0 else "odd" for x in num]
-# print(l5)
+l5=["even" if x % 2 == 0 else "odd" for x in num]
+print(l5)
