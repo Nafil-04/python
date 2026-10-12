@@ -41,7 +41,29 @@
 #     print(a)
 
 # while loop
-a=1
-while a<=10:
-    print(a)
-    a+=1
+# a=1
+# while a<=10:
+#     print(a)
+#     a+=1
+
+# pass statement
+# a=10
+# if a>=5:
+#  pass
+
+# continue statement
+# for i in range(10):
+#     if i ==5:
+#         continue
+#     print(i)
+
+# break statement
+# for i in range(10):
+#   if i ==5:
+#     break
+#   print(i)
+
+# nested loops
+for i in range(3):
+    for j in range(2):
+        print(i,j)
