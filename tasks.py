@@ -1,6 +1,6 @@
-n1=float(input("enter first number: "))
-operator=input("enter operator : (+,-,/,*)")
-n2=float(input("enter second number: "))
+n1=float(input("Enter First Number: "))
+operator=input("Enter Operator : (+,-,/,*)")
+n2=float(input("Enter Second Number: "))
 
 if operator == "+":
     print(n1+n2)
@@ -11,4 +11,4 @@ elif operator == "*":
 elif operator == "/":
     print(n1/n2)
 else:
-    print("invalid operator")
+    print("Invalid Operator")
