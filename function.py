@@ -73,15 +73,47 @@
 # print(sum_result)
 
 # function scope
-a=10 #global function
+# a=10 #global function
 
-def greet():
-    a=15 #enclosing function
-    def greet1():
-        x=20 #local function
-        print(a)
+# def greet():
+#     a=15 #enclosing function
+#     def greet1():
+#         x=20 #local function
+#         print(a)
     
-    greet1()
+#     greet1()
     
-greet()
-print(a)
+# greet()
+# print(a)
+
+# recursion
+def factorial(n):
+# base case
+ if n == 0 or n == 1:
+    return 1
+# recursive case
+ else:
+    return n * factorial(n-1)
+print(factorial(5))
+
+# recursion fibonnaci
+def fibonnaci(n):
+    # base case
+    if n==0:
+        return 0
+    elif n == 1:
+        return 1
+    else :
+        return fibonnaci(n - 1) + fibonnaci(n-2)
+print(fibonnaci(6))
+
+# recursion for sum
+def sum_list(lst):
+# base
+    if not lst:
+        return 0
+    # recursive case
+    else :
+        return lst[0] + sum_list(lst[1:])
+
+print(sum_list([1,2,3,4,5]))
