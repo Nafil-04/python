@@ -90,7 +90,10 @@ def count_even_odd(nums):
         else:
             odd += 1
     return even, odd
+print(count_even_odd([1,2,3,4,5]))
+
 
 # 13
 def celsius_to_fahrenheit(c):
     return (c * 9 / 5) + 32
+print(celsius_to_fahrenheit(100))    
