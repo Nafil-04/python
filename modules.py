@@ -40,12 +40,12 @@
 
 # # BeautifulSoup:Web scraping
 
-from bs4 import BeautifulSoup
-import requests
+# from bs4 import BeautifulSoup
+# import requests
 
-page = requests.get("https://facebook.com")
-soup= BeautifulSoup(page.content,'html.parser')
-print(soup.title.text)
+# page = requests.get("https://facebook.com")
+# soup= BeautifulSoup(page.content,'html.parser')
+# print(soup.title.text)
 
 # HTTP Requests
 # import requests
