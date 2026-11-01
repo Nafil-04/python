@@ -119,30 +119,83 @@
 
 # Polymorphism
 
-class Animal:
-    def speak(self):
-     return "some sound"
+# class Animal:
+#     def speak(self):
+#      return "some sound"
 
-class Dog(Animal):
-    def speak(self):
-        return "Woof"
+# class Dog(Animal):
+#     def speak(self):
+#         return "Woof"
 
-class Cat(Animal):
-    def speak(self):
-        return "Meow"
+# class Cat(Animal):
+#     def speak(self):
+#         return "Meow"
 
-class Human:
-    def speak(self):
-        return "yello"
+# class Human:
+#     def speak(self):
+#         return "yello"
 
-def animal_sound(animal:Animal):
-    return animal.speak()
+# def animal_sound(animal:Animal):
+#     return animal.speak()
 
-dog=Dog()
-cat=Cat()
-human=Human()
-print(animal_sound(dog))
-print(animal_sound(cat))
-print(animal_sound(human))
+# dog=Dog()
+# cat=Cat()
+# human=Human()
+# print(animal_sound(dog))
+# print(animal_sound(cat))
+# print(animal_sound(human))
 
+# abstraction method
+# from abc import ABC,abstractmethod
 
+# class Shape (ABC):
+#     @abstractmethod
+#     def area (self):
+#         pass
+
+# class Rectangle(Shape):
+#     def __init__(self,width,height):
+#         self.width=width
+#         self.height=height
+
+#     # def area(self):  use when area is not defined 
+#     #     pass
+
+#     def area(self):
+#         return self.width * self.height
+
+# Rectangle=Rectangle(10,20)
+# print(Rectangle.area())
+
+# class methods
+# class Company :
+#     company_name="Tech Innovators"
+
+#     @classmethod
+#     def change_company_name(cls,new_name):
+#      cls.company_name = new_name
+
+# Company.change_company_name("Future Solutions")
+# print(Company.company_name)
+
+# # Static Methods
+# class MathOperations:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+
+# print(MathOperations.add(10,20))
+
+# decorator
+# def deco(func):
+#     def inner():
+#         print("before")
+#         func()
+#         print("after")
+#     return inner
+
+# @deco
+# def icecream():
+#     print("eating ice cream")
+#     # ice cream= deco(ice cream) #inner
+# icecream()
